@@ -83,6 +83,12 @@ body {
   height: 7px;
   position: absolute;
   right: 0;
+  top: 0;
+}
+
+.img-toggle {
+  /* transform: scaleY(-1); */
+  width: 25px;
 }
 
 .answer-container {
