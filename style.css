@@ -64,15 +64,27 @@ body {
 
 .faq {
   width: 50%;
+  margin: 62px 94px 0 0;
 }
 
 .questions {
   font-size: 12px;
   font-weight: 700;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.questions img {
+  height: 7px;
+  margin-left: 34px;
 }
 
 .question-container {
   display: flex;
+  margin-top: 20px;
+}
+
+.answer-container {
+  margin: 16px 0;
 }
 
 .answer {
@@ -113,5 +125,10 @@ body {
     background-image: url("./images/bg-pattern-mobile.svg");
     background-repeat: no-repeat;
     background-position: 42px 0px;
+  }
+
+  .faq {
+    width: 330px;
+    padding: 34px 24px;
   }
 }
