@@ -73,18 +73,22 @@ body {
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-.questions img {
-  height: 7px;
-  margin-left: 34px;
-}
-
 .question-container {
   display: flex;
   margin-top: 20px;
+  position: relative;
+}
+
+.questions img {
+  height: 7px;
+  /* margin-left: 34px; */
+  position: absolute;
+  right: 0;
 }
 
 .answer-container {
   margin: 16px 0;
+  display: none;
 }
 
 .answer {
