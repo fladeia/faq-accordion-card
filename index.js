@@ -1,13 +1,15 @@
 const arrowToggles = document.querySelectorAll(".arrow-toggle");
-
-console.log(arrowToggles);
+const answers = document.querySelectorAll(".answer")
 
 arrowToggles.forEach((arrowToggle) => {
-  arrowToggle.addEventListener("click", () => {
-    console.log("Hello");
+  arrowToggle.addEventListener("click", (e) => {
+    console.log(arrowToggle.parentNode.children[1])
+    arrowToggle.parentNode.children[1].classList.toggle("answer-toggle")
   });
 });
 
-// arrowToggles.addEventListener("click", () => {
-//   console.log("hello");
-// });
+// answers.forEach((answer) => {
+//   answer.addEventListener("click", () => {
+//     answer.classList.toggle("answer-toggle")
+//   })
+// })
