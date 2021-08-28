@@ -64,12 +64,16 @@ body {
 
 .faq {
   width: 50%;
-  margin: 62px 94px 0 0;
+  padding: 62px 94px 0 16px;
+}
+
+.title {
+  margin-bottom: 40px;
 }
 
 .questions {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 400;
   border-bottom: 1px solid hsl(240, 5%, 91%);
   position: relative;
 }
@@ -98,11 +102,19 @@ body {
 .answer {
   font-size: 12px;
   font-weight: 400;
+  color: hsl(240, 6%, 50%);
 }
 
 .answer-toggle {
   display: none;
+}
 
+.answer-toggle-font {
+  font-weight: 700;
+}
+
+.arrow-toggle-up {
+  transform: scaleY(-1);
 }
 
 @media (max-width: 768px) {
