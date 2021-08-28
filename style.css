@@ -9,7 +9,7 @@ body {
 }
 
 .bg-main {
-  width: 1440px;
+  max-width: 1440px;
   height: 768px;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   display: flex;
@@ -117,9 +117,9 @@ body {
   transform: scaleY(-1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 918px) {
   .bg-main {
-    width: 375px;
+    max-width: 375px;
   }
 
   .container-main {
@@ -136,7 +136,7 @@ body {
 
   .illustration-bg-mobile {
     width: 100%;
-    height: 100%;
+    height: 25%;
     background-image: url("./images/illustration-woman-online-mobile.svg");
     background-repeat: no-repeat;
     position: absolute;
@@ -153,7 +153,9 @@ body {
   }
 
   .faq {
-    width: 330px;
-    padding: 34px 24px;
+    width: 280px;
+    height: 400px;
+    margin: 24px;
+    padding: 0;
   }
 }
